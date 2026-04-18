@@ -26,3 +26,36 @@ we aims to enhance patient safety by providing instant alerts and reducing respo
 * IoT Components: Sensors (Heart Rate, Accelerometer, etc.)
 * Frontend: HTML, CSS, JavaScript
 * Backend: Flask Server**
+
+*  📂 Project Structure
+
+iot-health-monitor/
+│
+├── app.py                 # Main application file
+├── requirements.txt       # Dependencies
+├── README.md              # Documentation
+│
+├── templates/             # HTML files
+├── static/                # CSS, JS, images
+├── instance/              # Database/config (optional)
+├── models/                # ML models
+└── data/                  # Dataset (optional)
+
+CODE 
+git clone https://github.com/your-username/iot-health-monitor.git
+cd iot-health-monitor
+
+*CREATE VIRTUAL ENVIRONMENT 
+python -m venv venv
+
+* ACTIVE ENVIRONMENT
+venv\Scripts\activate
+
+*INSTALL 
+pip install -r requirements.txt
+
+* RUN THE APPLICATION
+  python app.py
+
+*OPEN IN BROSWER
+http://127.0.0.1:5000/
